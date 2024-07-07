@@ -33,7 +33,7 @@ export default function Footer() {
 
   const SupportLinks = [
     {
-      title: t('Afmobi'),
+      title: t('afmobi.com'),
       href: 'https://afmobi.com',
     },
     {

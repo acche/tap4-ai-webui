@@ -1,20 +1,20 @@
-# Open Source Tap4 AI Web UI
+# Open Source Afmobi AI Web UI
 
-This is an open-source AI Tools Directory project from [Tap4 AI Tool Directory](https://tap4.ai). Our goal is to make it
+This is an open-source AI Tools Directory project from [Afmobi AI Tool Directory](https://afmobi.com). Our goal is to make it
 easy for everyone to have their own AI Tools Directory, to collect their favorite AI tool products. This project is very
 lightweight and easy to maintain, suitable for individual developers interested in AI navigation sites, and also
 suitable for learners interested in NextJs. Everyone is welcome to fork and star.
 
 [Simplified Chinese](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md) | English
 
-## Support Tap4 AI in Product Hunt
+## Support Afmobi AI in Product Hunt
 
 <a href="https://www.producthunt.com/posts/ai-tools-directory-by-tap4-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai&#0045;tools&#0045;directory&#0045;by&#0045;tap4&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=464357&theme=light" alt="AI&#0032;Tools&#0032;Directory&#0032;by&#0032;Tap4&#0032;AI - Open&#0045;source&#0032;AI&#0032;navigation&#0032;&#0038;&#0032;discovery&#0032;with&#0032;multi&#0045;language | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 ## Version 2.0.0 Update Notes
 
 - AI site data is stored using a supabase database.
-- It is connected to the Tap4 AI crawler project, supporting fully automatic submission and collection.
+- It is connected to the Afmobi AI crawler project, supporting fully automatic submission and collection.
 - Supports simple categorization and search.
 
 Note: If you are not familiar with the database, or are concerned about compatibility issues with version 1.0.0, please
@@ -49,14 +49,14 @@ If you find the project helpful, please consider buying me a coffee:
 
 <a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-If you are interested in the project, please add my WeChat: helloleo2023, note: "tap4 ai open source", or scan the QR
+If you are interested in the project, please add my WeChat: helloleo2023, note: "Afmobi AI open source", or scan the QR
 code: ![tap4-ai-wx](./public/images/tap4-ai-wechat.jpg)
 
 ## Deployment Instructions
 
-### Deploying Tap4 AI Crawler
+### Deploying Afmobi AI Crawler
 
-See [Tap4 AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) for details. After deployment, you can use the
+See [Afmobi AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) for details. After deployment, you can use the
 platform's domain name or a custom domain name as the API interface for generating AI tool web page content (e.g.,
 https://{crawler_domain}/site/crawl, where {crawler_domain} is your specific domain name).
 
@@ -80,13 +80,13 @@ NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY writ
 
 ```sh
 # Your domain
-NEXT_PUBLIC_SITE_URL="https://tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://afmobi.com"
 
 # Google tracking ID and ad URL
 GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
 # Contact email at the bottom
-CONTACT_US_EMAIL="contact@tap4.ai"
+CONTACT_US_EMAIL="contact@afmobi.com"
 
 # Supabase database URL and key
 NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co"
@@ -145,13 +145,13 @@ NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY writ
 
 ```sh
 # Your domain
-NEXT_PUBLIC_SITE_URL="https://tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://afmobi.com"
 
 # Google tracking ID and ad URL
 GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
 
 # Contact email at the bottom
-CONTACT_US_EMAIL="contact@tap4.ai"
+CONTACT_US_EMAIL="contact@afmobi.com"
 
 # Supabase database URL and key
 NEXT_PUBLIC_SUPABASE_URL="https://xxxyyyzzz.supabase.co" NEXT_PUBLIC_SUPABASE_ANON_KEY="XXX.YYY.ZZZ"
@@ -202,19 +202,19 @@ Due to compatibility issues with different site anti-crawling mechanisms, the cr
 such issues, you currently need to manually query the database submit table, and then manually create the relevant
 website content and insert it into the web_navigation table.
 
-## Wanna submit your website on Tap4.ai?
+## Wanna submit your website on afmobi.com?
 
 ### Wanna add you website to our `/startup` page?
 
 - open an issue here: [TAP4-AI-Directory](https://github.com/6677-ai/TAP4-AI-Directory/issues)
-- email us: contact@tap4.ai
+- email us: contact@afmobi.com
 
 ## Links to our products
 
 ### TAP4-AI-Directory
 
 The Collection for the AI tools all over the world. | Collect free ChatGPT mirrors, alternatives,prompt, other AI tools,
-etc. For more, please visit: [Tap4 AI](https://tap4.ai)
+etc. For more, please visit: [Afmobi AI](https://afmobi.com)
 
 ### How to get your first users for startup at the website list
 

@@ -21,7 +21,7 @@ export async function POST(req: NextRequest) {
 
     // 检查 Authorization 是否存在并验证 token
     if (!authHeader || !authHeader.startsWith('Bearer ')) {
-      return NextResponse.json({ error: 'Authorization header is missing or malformed' }, { status: 401 });
+      return NextResponse.json({ error: 'Authorization header is missing or malformed 1' +  authHeader}, { status: 401 });
     }
 
     const token = authHeader.split(' ')[1];

@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
     // check key
     const isValid = submitKey === token;
     if (!isValid) {
-      return NextResponse.json({ error: 'Invalid token' }, { status: 401 });
+      return NextResponse.json({ error: 'Invalid token' + authHeader}, { status: 401 });
     }
 
     const supabase = createClient();

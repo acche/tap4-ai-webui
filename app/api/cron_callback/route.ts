@@ -19,9 +19,9 @@ export async function POST(req: NextRequest) {
 
     console.log("authHeader = ", authHeader)
     // Check Authorization and Verify token
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
-      return NextResponse.json({ error: 'Authorization header is missing or malformed 2 '  + authHeader}, { status: 401 });
-    }
+    // if (!authHeader || !authHeader.startsWith('Bearer ')) {
+    //   return NextResponse.json({ error: 'Authorization header is missing or malformed 2 '  + authHeader}, { status: 401 });
+    // }
 
     const token = authHeader.split(' ')[1];
     const submitKey = process.env.CRON_AUTH_KEY;
